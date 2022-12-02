@@ -60,16 +60,6 @@ type MapDispatchToProps = {
 
 export type UsersPropsType = MapStateToPropsTYpe & MapDispatchToProps;
 
-// const mapStateToProps = (state: ReducersType): MapStateToPropsTYpe => {
-//     return {
-//         usersPage: state.UsersReducer.users,
-//         pageSize: state.UsersReducer.pageSize,
-//         totalUsersCount: state.UsersReducer.totalUsersCount,
-//         currentPage: state.UsersReducer.currentPage,
-//         isFetching: state.UsersReducer.isFetching,
-//         ToogleIsFollowingState: state.UsersReducer.followingInProgress
-//     }
-// }
 
 
 const mapStateToProps = (state: ReducersType): MapStateToPropsTYpe => {
